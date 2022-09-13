@@ -1,9 +1,20 @@
 import React from 'react';
+import styled from 'styled-components';
+import './StripItem.scss';
+
+
 
 export const StripItem=({title,count,icon,itemStatus,color})=>{
+    console.log("color",color)
+    const StripItemColorStick=styled.div`
+    background-color: ${color};
+      height:12px;
+      width:2px;
+      border-radius: 1px;
+`;
     return <div className="stripItem">
         <div className="stripItemHeader">
-            {color?<div className="stripItemColorStick"></div>:null}
+            {color?<StripItemColorStick/>:null}
             <div className="stripItemTitle">
                 {title}
             </div>

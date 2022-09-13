@@ -19,5 +19,45 @@ export const policiesStrips=[
                 color:'#FF7A00'
             },
         ]
+    },
+    {
+        title:'Alert by OS',
+        stripItems:[
+            {
+                title:'Apple',
+                count:30,
+                color:'#57C1EE'
+            },
+            {
+                title:'Microsoft',
+                count:30,
+                color:'#D5A0FF'
+            },
+            {
+                title:'Linux',
+                count:30,
+                color:'#9256DE'
+            },
+        ]
+    },
+    {
+        title:'Alerts by environment',
+        stripItems:[
+            {
+                title:'Safari',
+                count:30,
+                color:'#57C1EE'
+            },
+            {
+                title:'Chrome',
+                count:30,
+                color:'#D5A0FF'
+            },
+            {
+                title:'Fire fox',
+                count:30,
+                color:'#9256DE'
+            },
+        ]
     }
 ];
