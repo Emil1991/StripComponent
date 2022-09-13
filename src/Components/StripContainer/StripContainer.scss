@@ -1,0 +1,16 @@
+.stripContainer{
+  background-color: #1C1C20;
+  color:white;
+  margin:10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width:1306px;
+  height:142px;
+  padding:20px 32px;
+  border-top-right-radius:10px;
+  border-top-left-radius: 10px;
+}
+
+.stripContainer~.stripContainer{
+  margin-top:70px;
+}
+
