@@ -2,3 +2,44 @@
   display: flex;
   align-items: center;
 }
+
+.stripItemBody{
+  display: flex;
+  align-items: center;
+  margin-top:10px;
+
+  .stripItemIncrease{
+    margin-left:9px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #FF5F4A;
+  }
+}
+
+.stripItem:not(:last-child){
+  margin-right:67px;
+}
+
+.stripItemTitle{
+  color:#9E9E9E;
+  font-size: 10px;
+}
+
+.stripItemCount{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 24px;
+  line-height: 15px;
+}
+
+.stripItemIcon{
+  margin-right:8px;
+  display: flex;
+  img{
+    width:20px;
+    height:20px;
+  }
+}

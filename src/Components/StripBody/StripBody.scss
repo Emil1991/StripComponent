@@ -1,3 +1,20 @@
 .stripBody,.stripItems{
   display: flex;
 }
+
+.stripBody{
+  margin-top:12px;
+
+  .stripItemsBar{
+    display: flex;
+    margin-top:12px;
+    padding: 3px;
+    background-color: rgba(196, 196, 196,0.1);
+    border-radius: 12px;
+    height: 2px;
+
+    .stripItemBar~.stripItemBar{
+      margin-left:4px;
+    }
+  }
+}

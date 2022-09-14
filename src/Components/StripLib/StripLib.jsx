@@ -26,17 +26,20 @@ export const policiesStrips=[
             {
                 title:'Apple',
                 count:30,
-                color:'#57C1EE'
+                color:'#57C1EE',
+                icon:'apple.png'
             },
             {
                 title:'Microsoft',
                 count:30,
-                color:'#D5A0FF'
+                color:'#D5A0FF',
+                icon:'windows.png'
             },
             {
                 title:'Linux',
                 count:30,
-                color:'#9256DE'
+                color:'#9256DE',
+                icon:'snap.png'
             },
         ]
     },
@@ -46,17 +49,20 @@ export const policiesStrips=[
             {
                 title:'Safari',
                 count:30,
-                color:'#57C1EE'
+                color:'#57C1EE',
+                icon:'safari.png'
             },
             {
                 title:'Chrome',
                 count:30,
-                color:'#D5A0FF'
+                color:'#D5A0FF',
+                icon:'chrome.png'
             },
             {
                 title:'Fire fox',
                 count:30,
-                color:'#9256DE'
+                color:'#9256DE',
+                icon:'firefox.png'
             },
         ]
     }
