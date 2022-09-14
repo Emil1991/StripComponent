@@ -67,3 +67,62 @@ export const policiesStrips=[
         ]
     }
 ];
+export const alertsStrips=[
+    {
+        title:'Accounts by Posture',
+        totalData:{title:'Total',count:7},
+        stripItems:[
+            {
+                title:'Critical',
+                count:2,
+                color:'#FF275B'
+            },
+            {
+                title:'Medium',
+                count:3,
+                color:'#FF7A00'
+            },
+            {
+                title:'Low',
+                count:2,
+                color:'#6C85E6'
+            },
+        ]
+    },
+    {
+        title:'Top Accounts By Alert',
+        totalData:{title:'Total',count:123,itemStatus:'increase'},
+        stripItems:[
+            {
+                title:'Walmart',
+                count:30,
+                color:'#FFFFFF',
+                icon:'wallmart.png'
+            },
+            {
+                title:'Amazon',
+                count:27,
+                color:'#C4C4C4',
+                icon:'amazon.png'
+            },
+            {
+                title:'Target',
+                count:20,
+                color:'#9E9E9E',
+                icon:'target.png'
+            },
+            {
+                title:'DropBox',
+                count:20,
+                color:'#6A6A6A',
+                icon:'dropbox.png'
+            },
+            {
+                title:'Monday',
+                count:20,
+                color:'#4C4C4D',
+                icon:'monday.png'
+            },
+        ]
+    },
+];
