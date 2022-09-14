@@ -1,4 +1,4 @@
-import './App.css';
+import './fonts.scss';
 import {StripContainer} from "./Components/StripContainer/StripContainer";
 import {policiesStrips,alertsStrips} from "./Components/StripLib/StripLib";
 

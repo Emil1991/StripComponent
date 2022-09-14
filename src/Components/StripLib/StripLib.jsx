@@ -49,19 +49,19 @@ export const policiesStrips=[
             {
                 title:'Safari',
                 count:30,
-                color:'#57C1EE',
+                color:'#F6F6F6',
                 icon:'safari.png'
             },
             {
                 title:'Chrome',
                 count:30,
-                color:'#D5A0FF',
+                color:'#C4C4C4',
                 icon:'chrome.png'
             },
             {
                 title:'Fire fox',
                 count:30,
-                color:'#9256DE',
+                color:'#9E9E9E',
                 icon:'firefox.png'
             },
         ]
